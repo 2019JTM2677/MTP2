@@ -4,7 +4,7 @@
 In WSNs, packets travel from source to destination node in a multi hop manner. 
 Provenance records the data source, forwarding, and aggregating information of data packets on their way to the base station.
 Provenance is critical for assessing the trustworthiness of the received data, diagnosing network failures, detecting early signs of attacks, etc.
-![path](images/path.png)
+![path](./images/path.png)
 We use compressive sensing technique to embed the information about the realying nodes into the packet using edge embedding and duble edge embedding methods. 
 CVX and OMP and its variants are used to solve the compressive sensing problem and the error rate in path recovery for these methods are compared.
 
